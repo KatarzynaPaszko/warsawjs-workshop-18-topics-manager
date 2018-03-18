@@ -26,6 +26,57 @@
 
     </section>
 
+    <section class="container section">
+    <div class="columns is-centered">
+        <div class="column is-half">
+            <article class="message">
+                <div class="message-header">
+                    <p>Zgłoś propozycję warsztatów</p>
+                </div>
+                <div class="message-body">
+                    <form action="" class="js-form-add-topic">
+                        <div class="field">
+                            <label class="label">
+                                <sup class="has-text-danger">*</sup> Temat
+                            </label>
+                            <div class="control">
+                                <input class="input" type="text" name="topic" required/>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">
+                                <sup class="has-text-danger">*</sup> Opis
+                            </label>
+                            <div class="control">
+                                <textarea class="textarea" name="description" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="field is-grouped">
+                            <div class="control">
+                                <button class="button is-link">Prześlij</button>
+                            </div>
+                            <div class="control">
+                                <button class="button is-text" type="reset">Cancel</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+    <section class="container section">
+      <h1 class="title">Zgłoszone tematy</h1>
+      <h2 class="subtitle">Zagłosuj na temat, aby został wkrótce zrealizowany</h2>
+
+      <div class="columns is-multiline jstopics">
+      </div>
+      
+    </section>
+
     <script src="scripts/main.js"></script>
 
   </body>
