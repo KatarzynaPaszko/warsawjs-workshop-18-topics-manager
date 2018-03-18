@@ -24,7 +24,7 @@ $form.addEventListener("submit", (e)=> {
   console.log(map);
 
   $form.reset();
-  renderTopics(map)
+  renderTopic(map)
 })
 
 function renderTopic(mapka) {
